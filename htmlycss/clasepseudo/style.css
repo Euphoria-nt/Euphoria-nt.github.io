@@ -1,0 +1,30 @@
+.main-nav
+{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color:tomato;
+}
+.main-navitem
+{
+    display: inline-block;
+}
+.main-navitem a
+{
+    color: white;
+    padding: 20px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.main-navitem a:hover
+{
+    color: violet;
+}
+.main-navitem a:active
+{
+    color:yellow;
+}
+.main-navitem a::after
+{
+    content: " | ";
+}
