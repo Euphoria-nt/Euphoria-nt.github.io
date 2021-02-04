@@ -1,0 +1,12 @@
+/* h2 ~p {
+    color: red;
+} Combinador Hermano general*/
+/* h2 + p {
+    color: red;
+} Combinador Hermano*/
+/* div > h2{
+    color: red;
+}  Combinador de Hijo directo*/
+/* div p{
+    color: red;
+} Combinador Descendiente*/
